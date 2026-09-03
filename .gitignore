@@ -35,4 +35,5 @@ Thumbs.db
 # Environment
 .env
 .env.*
-!.env.exampleapps/mobile/.claude/ 
+!.env.example
+apps/mobile/.claude/ 
