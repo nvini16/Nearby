@@ -1,0 +1,9 @@
+{
+    "name": "nearby",
+    "private": true,
+    "version": "0.1.0",
+    "packageManager": "pnpm@10.0.0",
+    "devDependencies": {
+        "turbo": "^2.10.12"
+    }
+}
