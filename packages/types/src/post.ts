@@ -12,6 +12,7 @@ export type PostVisibility = 'public' | 'private';
 export type Post = {
   id: string;
   authorId: string;
+  placeId: string;
   media: Media[];
   caption?: string;
   createdAt: string;
