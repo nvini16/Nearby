@@ -13,14 +13,8 @@ export type PlaceCategory =
   | 'landmark'
   | 'other';
 
-export type PlaceStatus =
-  | 'active'
-  | 'temporarily_closed'
-  | 'permanently_closed'
-  | 'archived'
-  | 'merged';
+export type PlaceStatus = 'active' | 'closed';
 
-export type PlaceModerationStatus = 'visible' | 'hidden';
 
 export type Coordinates = {
   latitude: number;
@@ -43,14 +37,8 @@ export type Place = {
 
   coverImageUrl?: string;
   avatarImageUrl?: string;
-  gallery: string[];
-
   status: PlaceStatus;
-  moderationStatus: PlaceModerationStatus;
-  verified: boolean;
 
-  createdAt: string;
-  updatedAt: string;
 };
 
 export type MapPlace = Pick<
