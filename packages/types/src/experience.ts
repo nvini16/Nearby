@@ -12,6 +12,4 @@ export type Experience = {
   occurredAt: string;
   createdAt: string;
   visibility: ExperienceVisibility;
-  pinnedToProfile: boolean;
-  postId?: string;
 };
