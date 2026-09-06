@@ -24,16 +24,10 @@ export type Coordinates = {
 export type Place = {
   id: string;
   name: string;
-  slug: string;
   description?: string;
   category: PlaceCategory;
 
   location: Coordinates;
-  address?: string;
-  neighborhood?: string;
-  city?: string;
-  state?: string;
-  country?: string;
 
   coverImageUrl?: string;
   avatarImageUrl?: string;
@@ -41,9 +35,4 @@ export type Place = {
 
 };
 
-export type MapPlace = Pick<
-  Place,
-  'id' | 'name' | 'category' | 'location' | 'avatarImageUrl'
-> & {
-  nCount: number;
-};
+
