@@ -7,14 +7,7 @@ export type Media = {
 };
 
 
-export type PostVisibility = 'public' | 'followers' | 'private';
-
-export type PostLocation = {
-  latitude: number;
-  longitude: number;
-  accuracyMeters?: number;
-  capturedAt: string;
-};
+export type PostVisibility = 'public' | 'private';
 
 export type Post = {
   id: string;
