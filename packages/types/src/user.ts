@@ -14,9 +14,4 @@ export type User = {
   displayName: string;
   avatarUrl?: string;
   bio?: string;
-  links: ExternalLink[];
-  visibility: ProfileVisibility;
-  roles: UserRole[];
-  createdAt: string;
-  updatedAt: string;
 };
