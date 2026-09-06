@@ -3,14 +3,9 @@ export type PlaceCategory =
   | 'cafe'
   | 'bar'
   | 'park'
-  | 'beach'
-  | 'store'
   | 'school'
-  | 'university'
-  | 'gym'
-  | 'club'
-  | 'event_space'
-  | 'landmark'
+  | 'loja'
+  | 'hotel'
   | 'other';
 
 export type PlaceStatus = 'active' | 'closed';
