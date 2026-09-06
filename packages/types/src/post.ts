@@ -18,7 +18,6 @@ export type Post = {
   visibility: PostVisibility;
 };
 
-export type PostPlaceRelationType = 'host' | 'mentioned';
 
 export type PostPlaceRelation = {
   postId: string;
