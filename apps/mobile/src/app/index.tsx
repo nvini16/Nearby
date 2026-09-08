@@ -4,7 +4,10 @@ import HomeHeader from '@/components/home/HomeHeader';
 
 export default function HomeScreen() {
   return (
+
+    
     <View style={styles.container}>
+      <HomeHeader />
       <Text style={styles.title}>
         Nearby
       </Text>
