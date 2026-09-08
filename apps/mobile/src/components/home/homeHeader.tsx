@@ -2,7 +2,9 @@ import { View, Text, StyleSheet } from 'react-native';
 import { Colors, Typography } from '../../constants/theme';
 
 export default function HomeHeader() {
-    return (  <View style={styles.container}>
+    return (  
+    
+    <View style={styles.container}>
         <Text style={styles.title }>Nearby</Text>
     </View>
     );
@@ -15,6 +17,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         paddingHorizontal: 16,
         paddingVertical: 12,
+        width: '100%',
     },
 
     title: {

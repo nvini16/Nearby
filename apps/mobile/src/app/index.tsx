@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native';
 import { Colors, Spacing, Typography } from '@/constants/theme';
-import HomeHeader from '@/components/home/HomeHeader';
+import HomeHeader from '../../components/home/HomeHeader';
 
 export default function HomeScreen() {
   return (
