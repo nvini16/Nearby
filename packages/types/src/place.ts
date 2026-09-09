@@ -8,6 +8,7 @@ export type PlaceCategory =
   | 'hotel'
   | 'other';
 
+  
 export type PlaceStatus = 'active' | 'closed';
 
 
