@@ -1,10 +1,10 @@
 import type { Experience } from '@nearby/types';
-import {View, StyleSheet, Text } from 'react-native';
+import {View, StyleSheet, Text, image } from 'react-native';
 import {Colors, Typography } from '@/constants/theme';
 
 export default function ExperienceItem({ experience}: {experience: Experience}) {
     const media = experience.media[0];
-    
+
     return (
         <View>
             <View style={styles.avatar} />
