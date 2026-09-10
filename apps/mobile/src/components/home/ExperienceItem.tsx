@@ -1,5 +1,5 @@
 import type { Experience } from '@nearby/types';
-import {View, StyleSheet, Text, image } from 'react-native';
+import {View, StyleSheet, Text, Image } from 'react-native';
 import {Colors, Typography } from '@/constants/theme';
 
 export default function ExperienceItem({ experience}: {experience: Experience}) {
@@ -7,7 +7,10 @@ export default function ExperienceItem({ experience}: {experience: Experience}) 
 
     return (
         <View>
-            <View style={styles.avatar} />
+            <Image 
+                source={{ uri: media?.url }}
+                style={styles.avatar}
+            />
 
             <Text style={styles.name}>Nome</Text>
         </View>
