@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native';
-import { Colors, Spacing, Typography } from '@/constants/theme';
-import HomeHeader from '../../components/home/HomeHeader';
+import { Colors, Spacing } from '@/constants/theme';
+import HomeHeader from '@/components/home/homeHeader';
+import ExperienceSection from '@/components/home/ExperienceSection';
 
 export default function HomeScreen() {
   return (
@@ -8,13 +9,7 @@ export default function HomeScreen() {
     
     <View style={styles.container}>
       <HomeHeader />
-      <Text style={styles.title}>
-        Nearby
-      </Text>
-
-      <Text style={styles.subtitle}>
-        Criando redes sociais além da tela.
-      </Text>
+      <ExperienceSection />
     </View>
   );
 }
@@ -24,19 +19,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     padding: Spacing.xxl,
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
     backgroundColor: Colors.background,
-  },
-
-  title: {
-    ...Typography.display,
-    color: Colors.textPrimary,
-  },
-
-  subtitle: {
-    ...Typography.body,
-    color: Colors.textSecondary,
-    marginTop: Spacing.md,
-    textAlign: 'center',
   },
 });

@@ -3,6 +3,7 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "dependencies": {
+    "@nearby/types": "workspace:*",
     "@expo/ui": "~57.0.15",
     "expo": "~57.0.19",
     "expo-constants": "~57.0.17",
